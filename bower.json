@@ -1,0 +1,34 @@
+{
+    "name": "angular-swagger-ui",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "AngularJS implementation of Swagger UI",
+    "homepage": "https://github.com/nanoSDK/angular-swagger-ui",
+    "keywords": [
+        "angular",
+        "bootstrap",
+        "swagger",
+        "swagger-ui",
+        "api",
+        "rest",
+        "documentation"
+    ],
+    "authors": [
+        "Mathieu Alès"
+    ],
+    "ignore": [
+        "**/.*",
+        "src",
+        "copyright.txt",
+        "package.json"
+    ],
+    "main": [
+        "dist/scripts/swagger-ui.min.js",
+        "dist/css/swagger-ui.min.css"
+    ],
+    "dependencies": {
+        "angular": ">=1.5.0 <2",
+        "angular-sanitize": ">=1.5.0 <2",
+        "angular-ui-bootstrap": "~1.3",
+    }
+}
